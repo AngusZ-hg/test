@@ -3,6 +3,7 @@ import json
 def get_stored_username():
     """如果存储了用户名，就获取它"""
     filename = 'username.json'
+    print(__name__)
     try:
         with open(filename) as f_obj:
             username = json.load(f_obj)
@@ -28,4 +29,5 @@ def greet_user():
     else:
         print("Welcome back, " + username + "!")
 
-greet_user()
+if __name__ =='__main__':
+    greet_user()
