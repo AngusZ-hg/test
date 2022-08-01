@@ -4,6 +4,7 @@ def make_shirt(size, sample='I love Python'):
 def describe_city(city_name, country='China'):
     print(city_name.title() + " is in " + country.title())
 
+
 make_shirt('L')
 make_shirt("M", 'Born to be different')
 describe_city('beijing')

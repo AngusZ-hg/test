@@ -11,6 +11,7 @@ print(city)
 city = city_country('new york', 'america')
 print(city)
 
+
 def make_album(singer_name, album_name, number=''):
     album = {'singer_name': singer_name, 'album_name': album_name}
     if number:
